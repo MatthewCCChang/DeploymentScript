@@ -10,4 +10,5 @@ source python3-virtualenv/bin/activate
 pip install -r requirements.txt
 
 systemctl daemon-reload
+systemctl enable mysqld
 systemctl portfolio
